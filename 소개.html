@@ -119,10 +119,6 @@ section{
   margin: auto;
   padding: 0 15px;
  }
-  @media screen and (max-width: 480px) {
-    .section2 .container{padding: 0 15px;
-  }
- }
  .section2 .section2__container .section2__box {
       display: flex;
       padding-top: 73px;
@@ -390,6 +386,111 @@ section{
 }
 .footer-line .container .footer-line__top .footer-line__terms a{
   display: block;
+}
+
+@media (max-width:1060px) {
+  .section1 {
+    background: url(https://l2classic.club/templates/l2classic_2/img/hero-mobile.jpg) 50% no-repeat;
+      background-size: cover;
+  }
+  .section1__title {
+    text-align: center;
+  }
+  .section1__date {
+    margin:0 auto;
+  }
+  .section2__box{
+    flex-wrap: wrap;
+  }
+  .section2__left {
+    flex: 0 0 100%;
+    width: 100%;
+    padding-right: 0;
+  }
+  .section2__right {
+    flex: 0 0 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+  .section2__com {
+    width: 370px;
+    flex: 0 0 370px;
+    margin-left: 60px;
+    margin-top: 0;
+  }
+  .section3__box {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section3__text {
+  flex: 0 0 100%;
+  padding: 0;
+  margin-bottom: 30px;
+}  
+}
+@media (max-width: 960px) {
+      .section2__right {
+        flex-wrap: wrap;
+      }
+      .section2__com {
+        margin-top: 60px;
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+      
+      .section3__box {
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+
+      .section3__info-el {
+          flex: 0 0 34%;
+          margin-bottom: 30px;
+    }
+}
+    @media (max-width: 650px) {
+      .section2__title {
+        padding-left: 0;
+        text-align: center;
+      }
+      .section2__news {
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+      }
+      .section2__news-img {
+          margin: 0 0 40px 0;
+          display: none;
+        }
+       .section2__com {
+        width: 100%;
+        flex: 0 0 100%;
+        margin-left: 0;
+        margin-right: 0;
+       }
+        .section2__com::after {
+          background-size: 100%;
+        }
+        .section3__info {
+        width: 100%;
+        flex: 0 0 100%;
+        margin-left: 0;
+        margin-right: 0;
+       }
+        .section3__info::after {
+          background-size: 100%;
+        }
+        .section3__info-el {
+          flex: 0 0 50%;
+      }
+    }
+@media screen and (max-width: 480px) {
+    .section2 .container{padding: 0 15px;
+  }
 }
 </style>
 <!-- Global site tag (gtag.js) - Google Analytics -->
