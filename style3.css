@@ -28,9 +28,10 @@
     .section2__com {
       width: 370px;
       flex: 0 0 370px;
-      margin-left: 60px;
-      margin-top: 0;
-      margin-bottom: 120px;
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-top: 60px;
+      margin-bottom: 60px;
     }
     
   }
