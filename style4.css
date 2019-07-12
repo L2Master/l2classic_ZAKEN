@@ -1,0 +1,212 @@
+.section2 {
+    background: url(https://l2classic.club/templates/l2classic_2/img/bg4.jpg) center no-repeat;
+      background-size: cover;
+      padding-bottom: 93px;
+      padding-top: 61px;
+  }
+  .section2 .container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding: 0 15px;
+  }
+  .section2__box {
+    display: flex;
+        align-items: flex-start;
+  }
+  .section2__left {
+    padding-right: 10px;
+        flex: 1 1;
+      }
+  .section2__download {
+        margin-bottom: 63px;
+      }
+  .section2__download-title {
+    color: #aa8a55;
+          font-size: 40px;
+          font-family: 'Times New Roman', Times, serif;
+          margin-bottom: 30px;
+  }
+  .section2__download-row {
+        display: flex;
+      }
+  .section2__download-el {
+        margin-left: 30px;
+          width: 168px;
+          height: 44px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 14px;
+          color: white;
+          letter-spacing: .1em;
+          text-transform: uppercase;
+          background: url(https://l2classic.club/templates/l2classic_2/img/btn-s.png) top center no-repeat;
+          position: relative;
+          z-index: 1;
+      }
+  .section2__download-el::after{
+        content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url(https://l2classic.club/templates/l2classic_2/img/btn-s.png) bottom center no-repeat;
+            opacity: 0;
+            visibility: hidden;
+            z-index: -1;
+      }
+      .section2__download2 {
+        margin-bottom: 63px;
+      }
+  .section2__download2-title {
+    color: #aa8a55;
+          font-size: 40px;
+          font-family: 'Times New Roman', Times, serif;
+          margin-bottom: 30px;
+  }
+  .section2__download2-row {
+        display: flex;
+      }
+  .section2__download2-el {
+        margin-left: 30px;
+          width: 168px;
+          height: 44px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 14px;
+          color: white;
+          letter-spacing: .1em;
+          text-transform: uppercase;
+          background: url(https://l2classic.club/templates/l2classic_2/img/btn-s.png) top center no-repeat;
+          position: relative;
+          z-index: 1;
+      }
+  .section2__download2-el::after{
+        content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url(https://l2classic.club/templates/l2classic_2/img/btn-s.png) bottom center no-repeat;
+            opacity: 0;
+            visibility: hidden;
+            z-index: -1;
+      }
+      .section2__download3 {
+        margin-bottom: 63px;
+      }
+  .section2__download3-title {
+    color: #aa8a55;
+          font-size: 40px;
+          font-family: 'Times New Roman', Times, serif;
+          margin-bottom: 30px;
+  }
+  .section2__download3-row {
+        display: flex;
+      }
+  .section2__download3-el {
+        margin-left: 30px;
+          width: 168px;
+          height: 44px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 14px;
+          color: white;
+          letter-spacing: .1em;
+          text-transform: uppercase;
+          background: url(https://l2classic.club/templates/l2classic_2/img/btn-s.png) top center no-repeat;
+          position: relative;
+          z-index: 1;
+      }
+  .section2__download3-el::after{
+        content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url(https://l2classic.club/templates/l2classic_2/img/btn-s.png) bottom center no-repeat;
+            opacity: 0;
+            visibility: hidden;
+            z-index: -1;
+      }
+      .section2__right {
+      width: 370px;
+        flex: 0 0 370px;
+    }
+    .section2__com {
+      margin-top: 72px;
+        width: 100%;
+        border: 10px solid #40c4c8;
+        border-image: url(https://l2classic.club/templates/l2classic_2/img/border3.png) 10 round;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        padding-bottom: 10px;
+        border-image-width: 0 30px 30px 30px;
+        border-image-slice: 30;
+        border-top: 0;
+        position: relative;
+    }
+    .section2__com::after {
+      content: '';
+          position: absolute;
+          top: -20px;
+          left: -10px;
+          width: calc(100% + 20px);
+          height: 20px;
+          background-size: contain;
+          background: url(https://l2classic.club/templates/l2classic_2/img/border-top.png) center no-repeat;
+        }
+    
+    .section2__com-title {
+      padding: 0 12px;
+          font-size: 40px;
+          color: #aa8a55;
+          margin-top: -37px;
+          margin-bottom: 25px;
+          font-family: 'Times New Roman', Times, serif; 
+    }
+    .section2__com-el {
+      display: flex;
+          align-items: center;
+          flex: 0 0 100%;
+          padding-left: 30px;
+          margin-bottom: 15px;
+    } 
+    .section2__com-icondisc {
+      width: 29px;
+      margin-right: 11px;
+      height: 33px;
+            background: url(https://l2classic.club/templates/l2classic_2/img/discord.svg) top no-repeat;
+            background-size: contain;
+            position: relative;
+            z-index: 1;
+    }
+    .section2__com-icondisc::after {
+      content: '';
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              background-size: contain;
+              background: url(https://l2classic.club/templates/l2classic_2/img/discord-h.svg) bottom center no-repeat;
+              opacity: 0;
+              visibility: hidden;
+              z-index: -1;
+    }
+    .section2__com-name {
+      text-transform: uppercase;
+          font-size: 14px;
+          color: #aa8a55;
+    }
+    .section2__com-name span {
+      text-transform: none;
+    }
