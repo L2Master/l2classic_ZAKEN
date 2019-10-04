@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  *::before, *::after {
+    box-sizing: inherit;
+  }
+  a {
+      text-decoration: none;
+  }
+  body {
+    font-family: sans-serif;
+    font-size: 1em;
+    overflow-x: hidden;
+    color: #000;
+    background-color: #fff;
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+  main {
+    position: relative;
+    overflow: hidden;
+  }
+  header {
+      height: 80px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1500;
+      width: 100%;
+      background: rgba(23, 20, 20, 0.7);
+  }
+  .header .container {
+          display: flex;
+          height: 100%;
+          justify-content: space-between;
+          align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding: 0 15px;
+  }
+  .header__logo {
+    display: flex;
+    align-items: flex-start;
+      font-size: 0;
+  }
+  .header__desctop {
+    margin-left: auto;
+      display: flex;
+      align-items: center;
+  
+  }
+  .header__nav {
+    margin-left: auto;
+          display: flex;
+  }
+  .header__nav a {
+    margin-left: 68px;
+              font-size: 12px;
+              position: relative;
+              text-transform: uppercase;
+              line-height: 22px;
+  }
+  
+  section {
+    display: block;
+  }
+  .section1 {
+      background: url(https://l2classic.club/templates/l2classic_2/img/hero-new.jpg) center no-repeat;
+      background-size: cover;
+      height: 600px;
+      padding-top: 178px;
+  }
+  .section1 .container{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding: 0 15px;
+  
+  }
+  .section1__title {
+    color: #D0AB6F;
+    font-size: 48px;
+    letter-spacing: .1em;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 38px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    width: 350px;
+    max-width: 100%;
+  }
+  .section1__update {
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: .1em;
+    color: white;
+    margin-top: 0;
+}
+  .section1__date {
+    background: url(https://l2classic.club/templates/l2classic_2/img/lines.png) center no-repeat;
+        background-size: cover;
+        width: 318px;
+        height: 58px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 18px;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+        color: white;
+        margin-left: -46px;
+      }
+      footer {
+        display: block;
+      }
+      .footer-line {
+        background: #1c1919;
+      }
+      .footer-line .container {
+        max-width: 1200px;
+        width: 100%;
+        margin: auto;
+        padding: 0 15px;
+      }
+      .footer-line__top {
+        height: 76px;
+              display: flex;
+              align-items: center;
+              padding-bottom: 4px;
+              background: url(https://l2classic.club/templates/l2classic_2/img/footer-line.png) center bottom repeat-x;
+      }
+      .footer-line__soc {
+        display: flex;
+      }
+      .footer-line__soc-el {
+        width: 30px;
+                  height: 30px;
+                  flex: 0 0 30px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  font-size: 16px;
+                  color: #737373;
+                  position: relative;
+                  opacity: .4;
+                  z-index: 1;
+            margin-right: 0;
+                  background: url(https://l2classic.club/templates/l2classic_2/img/yb-f.svg) top center no-repeat;
+      }
+      .footer-line__soc-el::after {
+        background: url(https://l2classic.club/templates/l2classic_2/img/yb-f-h.svg) top center no-repeat;
+      }
+       .footer-line__nav {
+        margin-left: 39px;
+              display: flex;
+              align-items: center;
+      }
+      .footer-line__nav a{
+        text-transform: uppercase;
+                  color: #737373;
+                  font-size: 10px;
+                  margin-right: 26px;
+      }
+      .footer-line__nav span {
+        color: #737373;
+                  font-size: 10px;
+      }
+      .footer-line__terms {
+        margin-left: auto;
+              color: #737373;
+              line-height: 22px;
+              font-size: 10px;
+              text-transform: uppercase;
+              text-align: right;
+      }
+      .footer-line__terms a{
+        display: block;
+      }
+      
+        ::-webkit-scrollbar {
+        width: 3px;
+        height: 3px
+      }
+      
+      ::-webkit-scrollbar-track {
+        background: white;
+        -webkit-border-radius: 5px;
+        border-radius: 5px
+      }
+      
+      ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+        background: #d0ab6f;
+      }
+      
+      ::-webkit-scrollbar-thumb:window-inactive {
+        background: #d0ab6f;
+        opacity: .5
+      }
